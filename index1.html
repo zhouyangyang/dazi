@@ -1,0 +1,59 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./stylesheets/index.css">
+<script src="./jQuery.js"></script>
+<script src="./game(1).js"></script>
+<title>打字</title>
+<style>
+   span{
+   	background: red;
+   	color: white;
+   	font-size: 10px;
+   }
+   body{
+   	margin:0px;
+   	padding: 0;
+   	background: black;
+   }
+  .bottom{
+
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 40px;
+  	line-height: 40px;
+  	text-align: center;
+  	background: red;
+  	color: black;
+  }
+  .sore,.die{
+  	width:200px;
+  	height: 100%;
+  	float: left;
+  }
+  #start{
+  	width:100px;
+  	height: 100%;
+  	border-radius: 6px;
+  	background: green;
+  	float: left;
+  }
+</style>
+</head>
+<body>
+<div class="bottom">
+	<div class="sore"><span>得分</span><span>1111</span></div>
+	<div class="die"><span>生命</span><span></span></div>
+	<div id="start">开始</div>
+	<select>
+       <option value ="1">1</option>
+  <option value ="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+	</select>
+</div>
+
+</body>
+</html>
